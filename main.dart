@@ -72,7 +72,7 @@ class _StockPriceChartState extends State<StockPriceChart> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text('Kode Saham F', style: TextStyle(fontSize: 18)),
+        Text('Kode Saham R', style: TextStyle(fontSize: 18)),
         ElevatedButton(
           onPressed: () {
             loadStockPrices();
