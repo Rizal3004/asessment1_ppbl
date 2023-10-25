@@ -12,7 +12,7 @@ class StockPrice {
   factory StockPrice.fromJson(Map<String, dynamic> json) {
     return StockPrice(
       DateTime.fromMillisecondsSinceEpoch(json['t'] * 1000),
-      json['h'].toDouble(),  // Menggunakan atribut "h" (harga tertinggi)
+      json['l'].toDouble(),  // Menggunakan atribut "h" (harga tertinggi)
     );
   }
 }
